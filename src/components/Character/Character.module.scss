@@ -1,0 +1,12 @@
+.person {
+    flex: 0 1 25%;
+    padding: 8px;
+    position: relative;
+    
+
+    img {
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+
+    & > div {
+        padding: 8px;
+    }
+
+    
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        background-color: grey;
+        display: block;
+    }
+}
+
+.back {
+    background-color: grey;
+    width: 150px;
+    height: 200px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
